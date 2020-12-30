@@ -1,2 +1,2 @@
-# website
-ART-Badge official website
+# ART-Badge website
+
