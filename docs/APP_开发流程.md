@@ -67,7 +67,7 @@ udb install dist/app.prc /user/download com.example.ART-Badge_template
 
 ## APP 卸载
 
-APP 卸载需要使用 udb 工具，udb 工具放在柿饼设计器的安装目录下，如果安装时候为修改过安装路径的话，其路径为 `C:\Program Files (x86)\PersimUIBuilder\tools\udb`。
+APP 卸载需要使用 udb 工具，udb 工具放在柿饼设计器的安装目录下，如果安装时候未修改过安装路径的话，其路径为 `C:\Program Files (x86)\PersimUIBuilder\tools\udb`。
 
 ![figure12](figures/udb路径.png)
 
