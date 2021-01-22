@@ -10,6 +10,8 @@
 
 - [Message](docs/JS_应用框架_API/Message/Message.md)
 
+- [navigate](docs/JS_应用框架_API/navigate/navigate.md)
+
 - [page&this](docs/JS_应用框架_API/page&this/page&this.md)
 
 - [screen](docs/JS_应用框架_API/screen/screen.md)
