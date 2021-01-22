@@ -6,5 +6,6 @@
 
 - [恢复出厂固件方法](docs/恢复出厂固件方法.md)
 
-- [加入开发群](docs/加入开发群.md)
+- [ART-Badge JS 应用框架 API 手册](docs/JS_应用框架_API/ART-Badge_JS_应用框架_API_手册.md)
 
+- [加入开发群](docs/加入开发群.md)
