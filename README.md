@@ -10,9 +10,9 @@
 
 ## 参考资料
 
-- [APP 开发流程](docs/APP_开发流程.md)
+- [APP 开发流程](docs/APP开发流程.md)
 
-- [Launcher 开发流程](docs/Launcher_开发流程.md)
+- [Launcher 开发流程](docs/Launcher开发流程.md)
 
 - [老版本胸牌指南](docs/老版本胸牌指南.md)
 
