@@ -1,5 +1,21 @@
 # 控件 Event
 
+
+## animatedImage 控件
+
+- `event` 事件对象示例
+
+    `{type: 'end', timeStamp: 2547, target: { id: 'animatedImage1' }, currentTarget: { id: 'animatedImage1' }}`
+
+- `event` 属性
+
+    | 属性名  | 类型 | 描述 | 注解 |
+    | - | - | - | - |
+    | type | String | 事件类型 |
+    | timeStamp | Number | 事件触发时间戳 |
+    | target | Object | 触发事件的控件的一些属性值集合 |
+    | currentTarget | Object | 当前组件的一些属性值集合 |
+    
 ## Button 控件
 
 - `event` 事件对象示例
@@ -90,6 +106,27 @@
     start：开始滑动时触发、<br/>
     change：滑动结束时触发、<br/>
     dropLast：滑到最后一项触发
+
+## WheelWidget 控件
+
+- `event` 事件对象示例
+
+    `{ type: 'change', timeStamp: 5235, target: { id: 'WheelWidget1' }, currentTarget: {id: 'WheelWidget1' }, detail: { value: 'panel03' }}`
+
+- `event` 属性
+
+    | 属性名  | 类型 | 描述 | 注解 |
+    | - | - | - | - |
+    |type|String|事件类型|¹有 `change、start、end 和 tap`|
+    | timeStamp | Number | 事件触发时间戳 |
+    | target | Object | 触发事件的控件的一些属性值集合 |
+    | currentTarget | Object | 当前组件的一些属性值集合 |
+    | detail | Object | 额外的信息 | 当前控件名称 |
+
+    > ¹ change：当前选中项变更、  
+    start：开始移动、  
+    end：结束移动、  
+    tap：点击当前选中项、
 
 ## Slider 控件
 

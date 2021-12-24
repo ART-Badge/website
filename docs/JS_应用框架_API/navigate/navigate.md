@@ -6,12 +6,12 @@
 
 | 参数 | 类型   | 描述 | 示例  |
 |------|--------|----------------------------------------|--------------------------|
-| url  | String | 需要跳转的新页面路径 | `pm.navigateTo('page/main')` |
-| obj  | Object | 包含需要跳转的新页面路径，以及相关参数¹ | `pm.navigateTo({url : 'page/main'})` , `pm.navigateTo({url : 'page/main', value : 123})` |
+| url  | String | 需要跳转的新页面路径 | `pm.navigateTo('pages/main/main')` |
+| obj  | Object | 包含需要跳转的新页面路径，以及相关参数¹ | `pm.navigateTo({url : 'pages/main/main'})` , `pm.navigateTo({url : 'pages/main/main', value : 123})` |
 
 > ¹ 该参数在新页面的 onLoad 函数内接收，url 与 value 是关键字，不能修改为其他。
 
-`* url 为基于工程目录的相对路径，value 为传到目标页的信息。page/main：代表 page 文件夹的下的名称为 main 的页面文件，page 的保存路径为当前 page 名称的文件夹下的 page 名称对应的文件，即 pageName/pageName `
+`* url 为基于工程目录的相对路径，value 为传到目标页的信息。pages/main/main：代表 pages 文件夹的下的名称为 main 的页面文件，page 的保存路径为当前 page 名称的文件夹下的 page 名称对应的文件，即 pageName/pageName `
 
 ### pm.redirectTo(url `or` obj)
 
@@ -19,8 +19,8 @@
 
 | 参数 | 类型   | 描述 | 示例  |
 |------|--------|----------------------------------------|--------------------------|
-| url  | String | 需要跳转的新页面路径                   | `pm.redirectTo('page/main')` |
-| obj  | Object | 包含需要跳转的新页面路径，以及相关参数¹ | `pm.redirectTo({url : 'page/main'})`,`pm.redirectTo({url : 'page/main', value : 123})` |
+| url  | String | 需要跳转的新页面路径                   | `pm.redirectTo('pages/main/main')` |
+| obj  | Object | 包含需要跳转的新页面路径，以及相关参数¹ | `pm.redirectTo({url : 'pages/main/main'})`,`pm.redirectTo({url : 'pages/main/main', value : 123})` |
 
 ### pm.navigateBack()
 

@@ -5,7 +5,7 @@
 `引用模块名`：`sensor`
 
 ```
-var sensor = require('module/sensor.js');
+var sensor = require('sensor');
 ```
 
 | index | 模块描述     | JS API                     | 备注                   |
