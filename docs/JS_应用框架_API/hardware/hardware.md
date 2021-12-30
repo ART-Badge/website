@@ -5,7 +5,7 @@
 `引用模块名`：`hardware`
 
 ```
-var sensor = require('module/hardware.js');
+var sensor = require('hardware');
 ```
 
 |    | 模块描述   |         JS调用接口          |             备注                                                  |

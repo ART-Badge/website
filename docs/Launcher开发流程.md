@@ -26,7 +26,9 @@
 
 生成 root.bin 文件需要使用一个脚本工具 `persim_mkromfs_script.zip`，该工具需要依赖 Python 3，故请到Python 官网下载：https://www.python.org/downloads/ 。安装 Python 3 的时候需要特别注意，需将其添加到 Windows 的环境变量中来，如下图所示。若安装时忘记勾选，请自行百度安装后添加环境变量的方法。
 
-![](C:\Users\RTT\Desktop\ART-Badge 二次开发文档\img\python3.png)
+
+![](img\python3.png)
+
 
 解压 `persim_mkromfs_script.zip`，把 `root.zip` 根文件解压在 `...\persim_mkromfs_script` 文件夹里面，`root` 的文件夹解构如下：
 
